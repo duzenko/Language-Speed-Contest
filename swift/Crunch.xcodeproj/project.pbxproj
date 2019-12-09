@@ -13,6 +13,7 @@
 		00047335237F144F001C231E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00047334237F144F001C231E /* Assets.xcassets */; };
 		00047338237F144F001C231E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00047337237F144F001C231E /* Preview Assets.xcassets */; };
 		0004733B237F144F001C231E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00047339237F144F001C231E /* LaunchScreen.storyboard */; };
+		004EA4F8239E91970041A04F /* Primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EA4F7239E91970041A04F /* Primes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		00047337237F144F001C231E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0004733A237F144F001C231E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0004733C237F144F001C231E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004EA4F7239E91970041A04F /* Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				00047339237F144F001C231E /* LaunchScreen.storyboard */,
 				0004733C237F144F001C231E /* Info.plist */,
 				00047336237F144F001C231E /* Preview Content */,
+				004EA4F7239E91970041A04F /* Primes.swift */,
 			);
 			path = Crunch;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				0004732F237F144E001C231E /* AppDelegate.swift in Sources */,
 				00047331237F144E001C231E /* SceneDelegate.swift in Sources */,
 				00047333237F144E001C231E /* ContentView.swift in Sources */,
+				004EA4F8239E91970041A04F /* Primes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Crunch/Preview Content\"";
+				DEVELOPMENT_TEAM = 8435649556;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Crunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Crunch/Preview Content\"";
+				DEVELOPMENT_TEAM = 8435649556;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Crunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
